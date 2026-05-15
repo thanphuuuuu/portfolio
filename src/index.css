@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --color-zinc-900: #18181b;
+  --color-zinc-200: #e4e4e7;
+  --color-emerald-500: #10b981;
+}
+
+@layer utilities {
+  .bg-grid {
+    /* KÍCH THƯỚC Ô LƯỚI: Đổi 60px để lưới to/nhỏ hơn (Lưu ý: Phải đổi cả số 60px ở @keyframes bên dưới) */
+    background-size: 100px 150px;
+    /* MÀU SẮC LƯỚI: Thay đổi rgba(0, 0, 0, 0.3) để đổi màu sắc hoặc độ nhạt/đậm của vạch kẻ */
+    background-image:
+      linear-gradient(to right, rgba(0, 0, 0, 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, transparent 1px);
+  }
+
+  .animate-grid-move {
+    /* TỐC ĐỘ LƯỚI: Đổi 10s thành số nhỏ hơn (để chạy nhanh hơn) hoặc lớn hơn (để chạy chậm hơn) */
+    animation: grid-move 2s linear infinite;
+  }
+}
+
+@keyframes grid-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    /* CHÚ Ý KHỚP VỚI KÍCH THƯỚC Ô LƯỚI: Đổi 60px theo background-size ở trên để chuyển động lặp lại mượt mà */
+    background-position: 0 150px;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#fafafa] text-zinc-900 font-sans antialiased selection:bg-zinc-900 selection:text-white;
+  }
+}
