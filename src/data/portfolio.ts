@@ -72,14 +72,13 @@ export const portfolioData: PortfolioData = {
   projects: [
     {
       id: "proj-1",
-      title: "E-Commerce Dashboard",
+      title: "TodoX",
       description:
-        "A comprehensive dashboard for managing e-commerce data with real-time updates and analytics.",
-      image:
-        "https://placehold.co/600x400/18181b/ffffff?text=E-Commerce+Dashboard",
-      techStack: ["React", "TypeScript", "Tailwind CSS", "Zustand"],
-      githubUrl: "https://github.com",
-      demoUrl: "https://demo.com",
+        "Ứng chụng cho phép ghi ra những công việc cần làm trong ngày.",
+      image: "/images/proj1-todoX.jpg",
+      techStack: ["React", "Tailwind CSS", "NodeJS", "MongoDB"],
+      githubUrl: "https://github.com/thanphuuuuu/todoX",
+      demoUrl: "https://todox-xfa8.onrender.com/",
     },
     {
       id: "proj-2",
