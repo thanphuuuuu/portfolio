@@ -82,13 +82,12 @@ export const portfolioData: PortfolioData = {
     },
     {
       id: "proj-2",
-      title: "Task Management App",
+      title: "Blog App",
       description:
-        "A minimalist task management tool designed for productivity and focus.",
-      image:
-        "https://placehold.co/600x400/18181b/ffffff?text=Task+Management+App",
-      techStack: ["Next.js", "Prisma", "Tailwind CSS"],
-      githubUrl: "https://github.com",
+        "A simple and elegant blog application for sharing thoughts and ideas.",
+      image: "/images/proj2-blog-app.png",
+      techStack: ["React", "NestJS", "TypeORM", "Postgress", "Tailwind CSS"],
+      githubUrl: "https://github.com/thanphuuuuu/blog-app",
       demoUrl: "https://demo.com",
     },
   ],

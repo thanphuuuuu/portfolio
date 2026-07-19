@@ -3,7 +3,10 @@ import { InfiniteGrid } from "../ui/InfiniteGrid";
 
 export function Hero() {
   return (
-    <section id="home" className="min-h-screen flex flex-col items-center justify-center relative px-6 overflow-hidden">
+    <section
+      id="home"
+      className="min-h-screen flex flex-col items-center justify-center relative px-6 overflow-hidden"
+    >
       <InfiniteGrid />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -15,7 +18,7 @@ export function Hero() {
           Thanh Phu
         </h1>
         <p className="text-xl md:text-2xl text-zinc-600 mb-10 font-medium">
-          Software Engineer
+          Web Developer
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center">
           <a
