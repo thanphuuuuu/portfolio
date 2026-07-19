@@ -74,7 +74,7 @@ export const portfolioData: PortfolioData = {
       id: "proj-1",
       title: "TodoX",
       description:
-        "Ứng chụng cho phép ghi ra những công việc cần làm trong ngày.",
+        "The app allows you to write down the tasks you need to do during the day.",
       image: "/images/proj1-todoX.jpg",
       techStack: ["React", "Tailwind CSS", "NodeJS", "MongoDB"],
       githubUrl: "https://github.com/thanphuuuuu/todoX",
