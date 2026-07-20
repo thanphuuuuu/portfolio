@@ -3,7 +3,7 @@ import type { PortfolioData } from "../types/";
 export const portfolioData: PortfolioData = {
   // Infor
   name: "Thanh Phu",
-  role: "Software Engineer",
+  role: "Web Developer",
   about:
     "I'm a passionate Software Engineer focused on building minimal, functional, and user-centric web applications. I love working with modern web technologies and continuously learning new things to improve my craft.",
   email: "tranlethanhphu.252005@gmail.com",
@@ -88,7 +88,7 @@ export const portfolioData: PortfolioData = {
       image: "/images/proj2-blog-app.png",
       techStack: ["React", "NestJS", "TypeORM", "Postgress", "Tailwind CSS"],
       githubUrl: "https://github.com/thanphuuuuu/blog-app",
-      demoUrl: "https://demo.com",
+      demoUrl: "https://blog-app-frontend-woad.vercel.app/",
     },
   ],
 };
