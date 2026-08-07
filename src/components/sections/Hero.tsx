@@ -18,7 +18,7 @@ export function Hero() {
           Thanh Phu
         </h1>
         <p className="text-xl md:text-2xl text-zinc-600 mb-10 font-medium">
-          Web Developer
+          “What we think, we become.”
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center">
           <a
